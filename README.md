@@ -14,7 +14,7 @@ EduQA 是一個基於 RAG（檢索增強生成）的教育問答系統，支援�
   - `LLM_prompt.py`：提示詞模板
   - `SimplifiedChineseChecker.py`：簡體中文檢查工具
   - `utils.py`：輔助工具
-- `Edu_RAG/`：教育相關 CSV 資料集
+- `user_manual_files/`：教育相關 CSV 資料集
 - `QA_v1.0.csv`：輸入問答資料
 - `output.csv`：輸出結果
 
@@ -28,7 +28,7 @@ EduQA 是一個基於 RAG（檢索增強生成）的教育問答系統，支援�
   - 其他請參考程式碼 import
 
 ## 使用方式
-1. 準備好問答 CSV 檔（需包含 Question, Answer, URL 欄位）。
+1. 準備好問答 CSV 檔（需包含 Question, Answer, URL 欄位），如 QA_v1.0.csv。
 2. 執行 `Agent/ReAct.py`，自動處理問答資料並產生 output.csv。
 3. 可自訂向量資料庫與模型參數。
 
@@ -37,9 +37,3 @@ EduQA 是一個基於 RAG（檢索增強生成）的教育問答系統，支援�
 - 多步驟問答生成流程
 - 結果自動寫入 CSV
 - 支援簡體中文檢查
-
-## 授權
-本專案採用 MIT License。
-
-## 聯絡方式
-如有問題請開 issue 或聯絡專案維護者。
